@@ -2,9 +2,6 @@ on:
   push:
     branches:
       - release
-env:
-  VERSION: "v1.0"
-  ENVIROMENT: "prod"
   
 jobs:
   push_to_registry:
